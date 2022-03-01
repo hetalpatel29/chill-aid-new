@@ -1,0 +1,727 @@
+body {
+    margin: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.titleblock {
+    width: 100%;
+    height: 70px;
+    background-color: black;
+}
+
+.titleblock h1 {
+    display: inline-block;
+    color: white;
+    margin-left: 33px;
+    font-family: auto;
+    font-size: 35px;
+}
+
+.titleblock .menublock {
+    display: inline-block;
+    float: right;
+}
+
+.titleblock .menublock ul {
+    list-style-type: none;
+}
+
+.titleblock .menublock ul li {
+    float: left;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+    vertical-align: middle;
+    line-height: 30px;
+}
+
+.titleblock .menublock ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: -webkit-pictograph;
+    font-size: 15px
+}
+
+.frontpage {
+    width: 100%;
+    overflow: auto;
+    padding: 0px 0px 280px 0px;
+    text-align: center;
+    background-image: url(../images/background-01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(50%);
+}
+
+.frontpage h2 {
+    margin: 0;
+    font-size: 55px;
+    padding-top: 15%;
+    color: white
+}
+
+.frontpage p {
+    color: white;
+    font-size: 21px;
+    margin: 0px;
+}
+
+.frontpage button {
+    height: 50px;
+    width: 200px;
+    font-size: 17px;
+    margin-top: 80px;
+    background-color: #ffffff4f;
+    color: white;
+}
+
+.contentblock {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+
+.informationbar {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    top: -20%;
+}
+
+.informationbar .informationbox {
+    width: 25%;
+    float: left;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+.informationbar .informationbox .informationsubbox {
+    width: 100%;
+    height: 200px;
+    border-radius: 65px 2px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.informationbar .informationbox .informationsubbox p {
+    font-size: 18px;
+    margin: 0px 20px 0px 20px;
+}
+
+.backgroundcolor1 {
+    background-color: #97BDAB;
+}
+
+.backgroundcolor2 {
+    background-color: #A197BD;
+}
+
+.backgroundcolor3 {
+    background-color: #BDA697;
+}
+
+.backgroundcolor4 {
+    background-color: #97BDAB;
+}
+
+.iconbackgroundcolor1 {
+    background-color: white;
+}
+
+.iconbackgroundcolor2 {
+    background-color: white;
+}
+
+.iconbackgroundcolor3 {
+    background-color: white;
+}
+
+.iconbackgroundcolor4 {
+    background-color: white;
+}
+
+.color1 {
+    color: white;
+}
+
+.color2 {
+    color: white;
+}
+
+.color3 {
+    color: white;
+}
+
+.color4 {
+    color: white;
+}
+
+.iconcolor1 {
+    color: #97BDAB;
+}
+
+.iconcolor2 {
+    color: #A197BD;
+}
+
+.iconcolor3 {
+    color: #BDA697;
+}
+
+.iconcolor4 {
+    color: #97BDAB;
+}
+
+.informationbar .informationbox .informationsubbox .symboldiv {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 65px;
+}
+
+.informationbar .informationbox .informationsubbox i {
+    font-size: 25px;
+}
+
+.informationbar .informationbox .informationsubbox:hover {
+    background-color: white;
+    box-shadow: 10px 0px 30px -10px gray;
+}
+
+.informationbar .informationbox .informationsubbox:hover .iconcolor1 {
+    color: white;
+}
+
+.informationbar .informationbox .informationsubbox:hover .iconbackgroundcolor1 {
+    background-color: #97BDAB;
+}
+
+.informationbar .informationbox .informationsubbox:hover .color1 {
+    color: #97BDAB;
+}
+
+.informationbar .informationbox .informationsubbox:hover .iconcolor2 {
+    color: white;
+}
+
+.informationbar .informationbox .informationsubbox:hover .iconbackgroundcolor2 {
+    background-color: #A197BD;
+}
+
+.informationbar .informationbox .informationsubbox:hover .color2 {
+    color: #A197BD;
+}
+
+.informationbar .informationbox .informationsubbox:hover .iconcolor3 {
+    color: white;
+}
+
+.informationbar .informationbox .informationsubbox:hover .iconbackgroundcolor3 {
+    background-color: #BDA697;
+}
+
+.informationbar .informationbox .informationsubbox:hover .color3 {
+    color: #BDA697;
+}
+
+.informationbar .informationbox .informationsubbox:hover .iconcolor4 {
+    color: white;
+}
+
+.informationbar .informationbox .informationsubbox:hover .iconbackgroundcolor4 {
+    background-color: #97BDAB;
+}
+
+.informationbar .informationbox .informationsubbox:hover .color4 {
+    color: #97BDAB;
+}
+
+.imageframe2 {
+    width: 100%;
+    height: 250px;
+    margin-bottom: 300px;
+    clear: both;
+}
+
+.imageframe2 .imagefframebox {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 0px 40px;
+}
+
+.imageframe2 .imagefframebox .imageframesubbox {
+    width: 100%;
+    text-align: center;
+}
+
+.imageframe2 .imagefframebox .imageframesubbox img {
+    width: 100%;
+    height: 400px;
+}
+
+.imageframe2 .imagefframebox .imageframesubbox .imgfooter {
+    background-color: white;
+    padding-top: 10px;
+}
+
+.imageframe2 .imagefframebox .imageframesubbox p {
+    font-size: 20px;
+    color: gray;
+    margin: 0;
+    font-weight: lighter;
+    float: left;
+}
+
+.imageframe2 .imagefframebox .imageframesubbox .arrowdiv {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #A197BD;
+    float: right;
+    margin-right: 20px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+}
+
+.imageframe2 .imagefframebox .imageframesubbox .arrowdiv i {
+    color: white;
+}
+
+.imageframe2 .imagefframebox .imageframesubbox:hover .imgfooter {
+    background-color: #A197BD;
+}
+
+.imageframe2 .imagefframebox .imageframesubbox:hover .arrowdiv {
+    background-color: white;
+}
+
+.imageframe2 .imagefframebox .imageframesubbox:hover .imageframe2 .imagefframebox .imageframesubbox .arrowdiv i {
+    color: #A197BD;
+}
+
+.imageframe2 .imagefframebox .imageframesubbox:hover p {
+    color: #A197BD;
+}
+
+.justomaindiv {
+    width: 100%;
+    text-align: center;
+    background-image: url(../images/background-02.jpg);
+    clear: both;
+    height: 800px;
+    opacity: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.justomaindiv .justoboxfrme {
+    width: 100%;
+    padding-top: 50px;
+    clear: both;
+}
+
+.justomaindiv h4 {
+    margin: 0;
+    color: white;
+    font-size: 35px;
+    font-weight: lighter;
+    padding-top: 2px;
+}
+
+.justomaindiv p {
+    padding-top: 80px;
+    font-size: 20px;
+    color: white;
+    padding-top: 20px;
+}
+
+.justomaindiv .justoboxfrme .justobox {
+    width: 33.33%;
+    float: left;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+.justomaindiv .justoboxfrme .justobox .justosubbox {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.justomaindiv .justoboxfrme .justobox .justosubbox h5 {
+    margin: 0%;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.justomaindiv .justoboxfrme .justobox .justosubbox p {
+    font-size: 15px;
+    color: black;
+    padding: 0;
+    padding-top: 0px;
+}
+
+.justomaindiv .justoboxfrme .justobox .justosubbox .justosymboldiv {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 70px;
+    border-radius: 50%;
+    background-color: #97A9BD;
+    margin: auto;
+}
+
+.justomaindiv .justoboxfrme .justobox .justosubbox .justosymboldiv i {
+    font-size: 25px;
+}
+
+.justoboxbackcolor {
+    background-color: white;
+}
+
+.justocolor {
+    color: black;
+}
+
+.justomaindiv .justoboxfrme .justobox:hover .justoboxbackcolor {
+    background-color: #97A9BD;
+}
+
+.justomaindiv .justoboxfrme .justobox:hover .justocolor {
+    color: white;
+}
+
+.justomaindiv .justoboxfrme .justobox:hover .justosymboldiv {
+    background-color: white;
+}
+
+.justomaindiv .justoboxfrme .justobox:hover .justoiconcolor {
+    color: #97A9BD;
+}
+
+.justoiconcolor {
+    color: white;
+}
+
+.spainmainframe {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgb(240, 235, 235);
+    margin-top: 100px;
+}
+
+.spainmainframe .spainframe {
+    width: 100%;
+}
+
+.spainmainframe .spainframe .spainbox {
+    width: 33.33%;
+    float: left;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+.spainmainframe .spainframe .spainbox .spainsubbox {
+    width: 100%;
+    border: 1px solid gray;
+    color: white;
+    text-align: center;
+}
+
+.spainmainframe .spainframe .spainbox .spainsubbox img {
+    width: 100%;
+    height: 400px;
+}
+
+.spainmainframe .spainframe .spainbox .spainsubbox .para1 {
+    font-size: 20px;
+    color: gray;
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    clear: both;
+}
+
+.spainmainframe .spainframe .spainbox .spainsubbox h6 {
+    font-size: 30px;
+    margin: 0;
+    font-family: sans-serif;
+    margin-top: 10px;
+    color: gray;
+    font-weight: lighter;
+}
+
+.spainmainframe .para2 {
+    color: gray;
+    font-size: 20px;
+    margin: 0;
+    padding-top: 100px;
+    margin-bottom: 10px;
+}
+
+.spainmainframe h5 {
+    color: gray;
+    font-size: 40px;
+    margin: 0;
+    font-weight: lighter;
+    margin-bottom: 50px;
+}
+
+.Nuncmaindiv {
+    width: 100%;
+    height: 500px;
+    background-color: #97A9BD;
+    margin-top: 400px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.Nuncmaindiv h1 {
+    margin: 0;
+    color: white;
+    font-weight: lighter;
+    font-size: 40px;
+    margin-bottom: 80px;
+}
+
+.Nuncmaindiv .nucheading {
+    margin: 0;
+    color: white;
+}
+
+.Nuncmaindiv .Nuncmaindivframe {
+    width: 100%;
+}
+
+.Nuncmaindiv .Nuncmaindivframe .NucboX {
+    width: 50%;
+    float: left;
+}
+
+.Nuncmaindiv .Nuncmaindivframe .NucboX .nucsubbox {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+
+.Nuncmaindiv .Nuncmaindivframe .NucboX .nucsubbox .nucintro {
+    width: 100%;
+    text-align: center;
+}
+
+.Nuncmaindiv .Nuncmaindivframe .NucboX .nucsubbox .nucintro .nucimgbox {
+    width: 30%;
+    height: 100px;
+    float: left;
+    padding-left: 80px;
+    box-sizing: border-box;
+}
+
+.Nuncmaindiv .Nuncmaindivframe .NucboX .nucsubbox .nucintro .nucimgbox img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.Nuncmaindiv .Nuncmaindivframe .NucboX .nucsubbox .nucintro .nucimgbox .nucname {
+    color: gray;
+    margin: 0;
+}
+
+.Nuncmaindiv .Nuncmaindivframe .NucboX .nucsubbox .nucintro .nucnamebox {
+    width: 70%;
+    height: 100px;
+    float: left;
+    color: white;
+    text-align: left;
+    box-sizing: border-box;
+    padding-left: 60px;
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+
+.Nuncmaindiv .Nuncmaindivframe .NucboX .nucsubbox .nucintro .nucnamebox h2 {
+    margin: 0;
+}
+
+.Nuncmaindiv .Nuncmaindivframe .NucboX .nucsubbox .nucintro .nucnamebox p {
+    margin: 0;
+}
+
+.Nuncmaindiv .Nuncmaindivframe .NucboX .nucsubbox .nucdescription {
+    width: 320px;
+    height: 141px;
+    margin: auto;
+    border-radius: 40px 2%;
+    background-color: white;
+    clear: both;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 50px;
+    font-size: 18px;
+    color: gray;
+    padding: 20px;
+}
+
+.imtrediet {
+    background-color: #282E39;
+    height: 440px;
+}
+
+.imtredietfooter {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.imtnfooterbox {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    vertical-align: middle;
+    line-height: 25px;
+}
+
+.imtfooterboxleft {
+    text-align: right;
+}
+
+.imtnfooterbox i {
+    margin: 0;
+    float: left;
+    margin: 5px;
+    font-size: 15px;
+}
+
+.imtnfooterbox p {
+    margin: 0;
+    float: left;
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+.contact {
+    width: 100%;
+    text-align: center;
+    background-color: #F4F4F4;
+    overflow: auto;
+    padding: 100px 0px 100px 0px;
+    margin-top: 100px;
+}
+
+.raw {
+    width: 100%;
+    overflow: auto;
+}
+
+.contactbox {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.contactsubbox {
+    width: 100%;
+    padding: 40px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.contactdiv {
+    width: 100%;
+    overflow: auto;
+    padding: 20px;
+    background-color: white;
+    margin: 50px 0px;
+}
+
+.contactdivleft {
+    width: 10%;
+    height: 60px;
+    border-radius: 50%;
+text-align: center;
+    float: left;
+}
+
+.contactdivleft i {
+    font-size: 25px;
+    color: white;
+    vertical-align: middle;
+    line-height: 60px;
+}
+
+.contactdivright {
+    width: 90%;
+    float: left;
+    text-align: left;
+    padding-left: 40px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+.contactsubbox input{
+    box-sizing: border-box;
+    padding: 25px;
+    width: 100%;
+    margin: 10px 0px;
+    font-size: 25px;
+    border: none;
+}
+.contactsubbox button{
+    width: 150px;
+    height: 60px;
+    background: #A197BD;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+.contactsubboxheading{
+    padding:50px 0px 10px 0px;
+    font-size: 34px !important;
+}
+.contactsubbox p{
+    font-size: 20px;
+    color:gray;
+}
+.contact h3{
+    font-size: 20px;
+    color:gray;
+}
+.contactheading{
+    font-size: 34px;
+    color:gray;
+    margin: 10px 0px;
+
+}
+.footer{
+    width: 100%;
+}
+.footerbox{
+    width: 25%;
+    float: left;
+}
+.footersubbox{
+    width: 100%;
+}
